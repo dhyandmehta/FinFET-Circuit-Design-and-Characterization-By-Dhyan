@@ -609,12 +609,17 @@ The image shows the Line Reg. (mV/V). To measure it we have used the following c
 
 
 
-<img width="593" height="436" alt="image" src="https://github.com/user-attachments/assets/b312f2dc-1536-4aa5-b075-c4173a3da078" />
+<img width="2560" height="1443" alt="Screenshot from 2026-01-04 20-38-43" src="https://github.com/user-attachments/assets/2d9d38c6-0f5a-476d-9dd6-b5d7b475d7cc" />
+<img width="892" height="1178" alt="Screenshot from 2026-01-04 20-39-01" src="https://github.com/user-attachments/assets/23216f0b-2682-40aa-98ff-942633fdfdcb" />
+<img width="892" height="1178" alt="Screenshot from 2026-01-04 20-39-01" src="https://github.com/user-attachments/assets/254bc8a0-e340-4487-965d-7294d7f284cb" />
+<img width="892" height="1178" alt="Screenshot from 2026-01-04 20-39-01" src="https://github.com/user-attachments/assets/8970d44d-c901-4678-adde-ffdba0487cea" />
+
 
 
 The following image shows the transient analysis and startup time waveform.
 
-<img width="1041" height="479" alt="image" src="https://github.com/user-attachments/assets/d0f8decf-110f-4464-a342-c8bb31f30206" />
+<img width="2560" height="1443" alt="Screenshot from 2026-01-04 20-56-05" src="https://github.com/user-attachments/assets/79972778-5319-4831-9b5b-2c7a6995eaf6" />
+
 
 The image shows the results for different paramaters.
 
