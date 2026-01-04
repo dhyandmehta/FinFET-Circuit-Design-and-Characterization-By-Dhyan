@@ -2,25 +2,31 @@
 This is a 10-day workshop on "FinFET Circuit Design and Characterization using ASAP7 PDK" carried out by VSDIAT. This focuses on FinFETs, mainly the asap7nm opensource technology where we characterize a NMOS transistor, inverter circuit using the asap7nm node. The document also comprises a brief introduction to FinFETs and the journey from large gate sized, to sub 1nm nodes. The duration of this workshop is from 26th Dec to 4th Jan.
 
 # 1. History of Transistors 
-[![large systems to cmos](images/Screenshot%202025-12-26%20123713.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20123713.png)
+<img width="1092" height="576" alt="image" src="https://github.com/user-attachments/assets/d54985be-b8a9-4378-a3a5-4604510b4a7a" />
+
 
 ## 1.1 Microprocessor trend 
-[![MP trend](images/Screenshot%202025-12-26%20124059.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20124059.png)
+<img width="1049" height="564" alt="image" src="https://github.com/user-attachments/assets/70d8f593-7171-4624-b4b2-4c18255fbabe" />
+
 
 ## 1.2 Path to Zeta Scale Computing 
-[![Zeta scale](images/Screenshot%202025-12-26%20124705.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20124705.png)
+<img width="1128" height="587" alt="image" src="https://github.com/user-attachments/assets/7ac1999a-7df4-4973-9d07-16aefe982a9a" />
+
 
 ## 1.3 CMOS Evolution 
 - Beyond a certain node size, Denard scaling was observed to be deifficult to follow, thus causing device scaling to include next geeration innvoations such as Patterning, using different Channel Material, Gate Stack, Interconnection Material, Device Architecture, Chiplet/3D integration. 
 
-[![elolution](images/Screenshot%202025-12-26%20125006.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20125006.png)
+<img width="1632" height="764" alt="image" src="https://github.com/user-attachments/assets/8879f117-5ada-4aff-a347-239d023c586c" />
+
 
 ## 1.4 Introduction to FinFETs
 FinFETs are a type of field effective transistor that has a fin like structure rather than being completely planar. The gate wraps around the fin on all three side, which connect to the source and drain terminals of the device. FinFETs came into play in the early 2010s when planar transistors could not be scaled down below 30nm due to short-channel effects. These devices proved to have enchanced `gate controll, faster switching speeds, increased drive current` all at a low supply voltage (VDD).
 
-[![FinFETs](images/Screenshot%202025-12-26%20135609.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20135609.png)
+<img width="1565" height="848" alt="image" src="https://github.com/user-attachments/assets/7e0e965a-0b33-4e39-95e4-15f71abe7d9e" />
 
-[![double gate](images/Screenshot%202025-12-26%20150657.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20150657.png)
+
+<img width="1630" height="883" alt="image" src="https://github.com/user-attachments/assets/86b38a36-eb75-465d-a8f6-c08c1e4d3562" />
+
 
 ### 1.4.1 Why FinFETs
 
