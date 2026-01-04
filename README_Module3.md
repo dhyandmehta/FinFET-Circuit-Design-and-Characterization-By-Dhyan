@@ -615,7 +615,7 @@ The image shows the Line Reg. (mV/V). To measure it we have used the following c
 The following image shows the transient analysis and startup time waveform.
 
 <img width="2560" height="1443" alt="Screenshot from 2026-01-04 20-56-05" src="https://github.com/user-attachments/assets/79972778-5319-4831-9b5b-2c7a6995eaf6" />
-
+admin:///root/tmp/hc11954_0.svg
 
 The image shows the results for different paramaters.
 
