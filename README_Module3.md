@@ -690,7 +690,8 @@ The following image shows the transient analysis and startup time waveform.
 
 The image shows the results for different paramaters.
 
-<img width="1034" height="228" alt="image" src="https://github.com/user-attachments/assets/342d870c-fa2a-4ef7-9408-91fc48cc8b62" />
+<img width="2559" height="930" alt="image" src="https://github.com/user-attachments/assets/d07df722-c8e3-4528-9710-541fb934983d" />
+
 
 
 
