@@ -592,11 +592,11 @@ plot temp_coeff
 ```
 
 
-<img width="1852" height="754" alt="image" src="https://github.com/user-attachments/assets/6e882ada-bc30-4995-b6b0-beec963c0420" />
+<img width="2560" height="1443" alt="Screenshot from 2026-01-04 20-38-43" src="https://github.com/user-attachments/assets/2d9d38c6-0f5a-476d-9dd6-b5d7b475d7cc" />
 
 The following image shows the Vref value at different temperatures for 1v VDD supply.
 
-<img width="357" height="619" alt="image" src="https://github.com/user-attachments/assets/8c637bfb-b84c-499e-8203-714f57c293bf" />
+<img width="892" height="1178" alt="Screenshot from 2026-01-04 20-39-01" src="https://github.com/user-attachments/assets/23216f0b-2682-40aa-98ff-942633fdfdcb" />
 
 The image shows the Line Reg. (mV/V). To measure it we have used the following commands
 
@@ -607,10 +607,6 @@ The image shows the Line Reg. (mV/V). To measure it we have used the following c
 ```
 
 
-
-
-<img width="2560" height="1443" alt="Screenshot from 2026-01-04 20-38-43" src="https://github.com/user-attachments/assets/2d9d38c6-0f5a-476d-9dd6-b5d7b475d7cc" />
-<img width="892" height="1178" alt="Screenshot from 2026-01-04 20-39-01" src="https://github.com/user-attachments/assets/23216f0b-2682-40aa-98ff-942633fdfdcb" />
 <img width="892" height="1178" alt="Screenshot from 2026-01-04 20-39-01" src="https://github.com/user-attachments/assets/254bc8a0-e340-4487-965d-7294d7f284cb" />
 <img width="892" height="1178" alt="Screenshot from 2026-01-04 20-39-01" src="https://github.com/user-attachments/assets/8970d44d-c901-4678-adde-ffdba0487cea" />
 
