@@ -49,13 +49,15 @@ Hfin is the height of fin and Tfin is the thickness of fin.
 - FinFETs have observed to have lower dynamic and static leakage currents at the same threshold voltage (Vt) as that of planar transistors. This leads to improved power efficiency (P∝CV2f)
 - At the same leakage current as planar devices, FinFETs observe lower Vt which translates to a lower suppy voltage Vdd. 
 
-[![leakage](images/Screenshot%202025-12-26%20151053.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20151053.png)
+<img width="1569" height="859" alt="image" src="https://github.com/user-attachments/assets/e0c2619e-191f-43b2-9ccf-db5df652d4f1" />
+
 
 5) Reduced Variablity
 - The variability in planar transistors started to increase because doping concentration in channel increased.
 - With the introduction to FinFETs, variability started to drop as they displayed better channel control as it is made of less doped channels. 
 
-[![variability](images/Screenshot%202025-12-26%20183324.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20183324.png)
+<img width="1603" height="873" alt="image" src="https://github.com/user-attachments/assets/84f6b0ea-bacf-487e-9c0f-aaed5673dce6" />
+
 
 ## 1.5 Front End of Line Inovations
 FEOL innovations affected design rules changes that resulted in modified ways to lay down the standard cells in a chip. 
@@ -63,8 +65,10 @@ FEOL innovations affected design rules changes that resulted in modified ways to
 ### 1.5.1 CMOS Technology Inflection Points
 - Moore's law does not specify the performance of IC's as no. of transistors increase on a chip. However Bob Denard came up with a methodology to predict the performance of a transistor by figuring out the supply voltage at a given gate lenght. 
 
-[![inflection points 1](images/Screenshot%202025-12-26%20164849.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20164849.png)
-[![Inflection points 2](images/Screenshot%202025-12-26%20175916.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20175916.png)
+<img width="1607" height="870" alt="image" src="https://github.com/user-attachments/assets/2bcd4fbd-16c3-4f86-bcd3-5074e8390f2f" />
+
+<img width="1670" height="920" alt="image" src="https://github.com/user-attachments/assets/8c56b94d-12e2-4303-b68f-3f3ea959633d" />
+
 
 - Devices of size in range ~1 µm to 180 nm followed Denards scaling i.e. supply voltage scaling.
 - 130 nm - The BEOL RC was affected and Aluminim BEOL was too resistive so Copper interconnects were introduced. 
@@ -81,14 +85,16 @@ FEOL innovations affected design rules changes that resulted in modified ways to
 - Sub 1 nm - Introduction to Conplementary FET architecture. Use of different 2D material to reduce source to drain tunneling such as MoS2. 
 
 ### 1.5.2 Standard Cell Area Scaling
-[![fin depopulation](images/Screenshot%202025-12-26%20180008.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20180008.png)
+<img width="1595" height="826" alt="image" src="https://github.com/user-attachments/assets/25eebdf6-c3fc-4fb1-a7a7-6903b8513010" />
+
 
 - Standard cell area scaling in FinFET technologies refers to how the physical footprint of logic standard cells (like INV, NAND2, etc.) shrinks as the front‑end device geometries and cell architecture are scaled from node to node.
 - Area can be decreased by modifying vertical (cell height) or horizaontal dimensions (cell width) 
 - Fin depopulation is used to scale the cell height and also reduce capacitive load on standard cell inputs.
 - Diffusion break prevents cross talk between transistors. 
 
-[![diff break](images/Screenshot%202025-12-26%20181417.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20181417.png)
+<img width="1623" height="862" alt="image" src="https://github.com/user-attachments/assets/84206a82-02f2-473f-a841-e1720104b3e8" />
+
 
 - Double Diffusion Break - Diffusion Break exists between two polysilicon or gate lines and cuts through active STI regions.
 - Single Break - takes only one polysilicon and cuts through active region. 
@@ -96,24 +102,27 @@ FEOL innovations affected design rules changes that resulted in modified ways to
 - Contact Over Active Gate - Gate contact is either on active region or STI. This offers an inproved interconnection between cells and also reduces cell height
 
 ### 1.5.3 Parasitic Resistance
-[![para resistance](images/Screenshot%202025-12-26%20215628.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20215628.png)
+<img width="1074" height="579" alt="image" src="https://github.com/user-attachments/assets/831a108d-ca38-4f70-ba1f-f0bba6a6ac9f" />
+
 
 - Parasitic resistance is important in transistors.
 - In planar transistors, the width of contact Wc is similar to width of channel Wg, where as in FinFETs, width of channel becomes smaller.
 - In GAA, the channel length is even smaller because of stacking nature of device.
 - In CFETs, extrinsic reistance is expected to by high.
 
-[![para resistance 2](images/Screenshot%202025-12-26%20215642.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20215642.png)
+<img width="1098" height="584" alt="image" src="https://github.com/user-attachments/assets/b01b5eea-8035-4b55-b11a-010e8cb0a815" />
+
 
 ### 1.5.4 Parasitic Capacitance
-[![para cap](images/Screenshot%202025-12-26%20220844.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-26%20220844.png)
+<img width="1087" height="581" alt="image" src="https://github.com/user-attachments/assets/69eb3549-3320-4fef-a98f-c4539f53cda8" />
 
 - The gate capacitance decreases as you scale down technology and parasitic capacitance goes up upon scaling down.
 - One way to minimize parasitic capacitence is by inserting a lower K material in the gap between gate and source-drain contact.
 - Upon reducing K value, we get a lower effective capacitance. 
 
 ### 1.5.5 Device Scaling Using Layered Materials
-[![device scaling](images/Screenshot%202025-12-27%20092025.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20092025.png)
+<img width="1570" height="848" alt="image" src="https://github.com/user-attachments/assets/80ed124f-a354-4213-b3a5-d1a6ba326505" />
+
 
 - We can use layered materials to modify the gate lenghts to 5nm. 
 - The main challenge faced in transistors is direct source to drain tunnelling, which prevents gate length scaling to short channels.
@@ -122,20 +131,23 @@ FEOL innovations affected design rules changes that resulted in modified ways to
 - 2D materials have a slighlty higher effective mass compared to silicon. The source to drain tunnelling can be reduced by increasing effective mass of carriers.
 
 ### 1.5.5 Transistor Scaling to Sub 5nm Gate Lenghts
-[![sub 5nm](images/Screenshot%202025-12-27%20092900.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20092900.png)
+<img width="1578" height="849" alt="image" src="https://github.com/user-attachments/assets/7bb097b8-9a7b-4791-b6c0-959d58cbea40" />
+
 
 - Ideally, charge leakage should be outside the channel, but it is observed both outside as well as inside the channel, which is a major problem in short channel transistors.
 - Upon scaling, problems such as low inplane dielectric constant arises. In order to fix this, the drain terminal cpacitnce should be lower than oxide capacitance.
 
 ### 1.5.6 MoS Transistor with 1nm Gate Length
-[![MoS 1nm](images/Screenshot%202025-12-27%20094118.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20094118.png)
+<img width="1561" height="859" alt="image" src="https://github.com/user-attachments/assets/4ce56806-6b4f-49a6-bdee-77f13e79b53d" />
+
 
 - Transistors are made of MoS2 channel and 1nm, single walled carbon nanotube gate. 
 - The gate oxide is made up of ZrO2 (Zirconium Di-Oxide).
 - Such transistors have a on/off current ratio of approximately 10^6 and a near sub threshold swing of 65 mV/decade.
 
 ### 1.5.7 All 2-D MOSFET
-[![2D mosfet](images/Screenshot%202025-12-27%20094624.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20094624.png)
+<img width="1510" height="818" alt="image" src="https://github.com/user-attachments/assets/4495790f-66d1-4f29-a16a-33663b32a79e" />
+
 
 - 2D materials are atomically thin, precise and have no dangling bonds.
 
@@ -146,7 +158,8 @@ FEOL innovations affected design rules changes that resulted in modified ways to
     - The mobility does not degrade at high electric fields, allows for high drive current adn also Vdd scaling.
 
 ### 1.5.8 Body-Bias Effect
-[![TMDs](images/Screenshot%202025-12-27%20101148.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20101148.png)
+<img width="1545" height="851" alt="image" src="https://github.com/user-attachments/assets/0bdd92af-7efd-479a-9c07-6f35733dce5d" />
+
 
 - In planar transistors, the threshold voltage (Vt) can be changed due to body effect.
 - However. in FinFETs applying body effect is quite challenging. But by forming a fin by placing oxide between channel material and body, Vt scaling can be performed.
@@ -154,30 +167,34 @@ FEOL innovations affected design rules changes that resulted in modified ways to
 - By modifying the oxide thickness, Vt can be changed by several 100vm with about 2V change in body voltage
 
 ### 1.5.9 Transistor Level Monolithics
-[![monolithics](images/Screenshot%202025-12-27%20101318.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20101318.png)
+<img width="1549" height="865" alt="image" src="https://github.com/user-attachments/assets/e86e8eeb-250b-4516-bd24-3910ba40df6d" />
+
 
 - Monolithic 3D two layer CMOS have N and P transistors placed on top of each other. thereby reducing the area upto 50%
 
-[![Area saving graph](images/Screenshot%202025-12-27%20101620.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20101620.png)
-[![Monolithics ckt](images/Screenshot%202025-12-27%20101629.png)
-](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20101629.png)
+<img width="1527" height="843" alt="image" src="https://github.com/user-attachments/assets/3b3a9488-20e9-4c2c-aed4-4b49385e898b" />
+
+<img width="1536" height="857" alt="image" src="https://github.com/user-attachments/assets/e4da6682-077f-43af-a2af-d9e6b4385eca" />
+
 - For an inverter, the gain has to be greater than 1 to operate. From the graph, Gain = 1 at 150mV, which shows that device operates at low supply voltage.
 
 ### 1.5.10 Interconnects 
-[![interconnects](images/Screenshot%202025-12-27%20111214.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20111214.png)
+<img width="1551" height="833" alt="image" src="https://github.com/user-attachments/assets/5f478fcd-462a-4c75-b533-aab85404df46" />
 
 - Dual Damascene Copper interconnects are successors of Al interconnects due to their high resistance
 - As technology shrinks down, the hole becomes narrower so we go to a single damascene process where via and metal are filled separatley.
 - We can replace Cu with other metals that require no barrier or thinner barriers.
 - Metals like Rutherium have low resistance, low feature size and do not require thick barriers.
 
-[![cu interconnects](images/Screenshot%202025-12-27%20112215.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20112215.png)
+<img width="1537" height="834" alt="image" src="https://github.com/user-attachments/assets/d722249f-3fba-45ba-ba27-492e33cb8cc6" />
+
 
 - Extended Cu interconnects are used as there is high resistance in normal interconnects due to barriers
 - Removing the top plate barrier, allows via resistance to reduce by 50%.
 
 ### 1.5.11 Backside Power Distribution Network
-[![back pdn](images/Screenshot%202025-12-27%20114138.png)](https://github.com/dheeraj-dj-ind/dheeraj_anandan_VSD_7nm_workshop/blob/main/images/Screenshot%202025-12-27%20114138.png)
+<img width="1637" height="853" alt="image" src="https://github.com/user-attachments/assets/05cd5f76-d175-442d-8e46-23a3fb69052f" />
+
 
 - If we choose a front side power delivery metwork, it has to go through almost 17 interconnect layers. Also there are more routing tracks for power and ground delivery to transistors.
 - A better solution is to supply power from backside, as vias have larger resistance and thus signal takes time to reach the destination. 
