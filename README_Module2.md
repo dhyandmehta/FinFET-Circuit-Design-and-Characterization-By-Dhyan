@@ -21,7 +21,8 @@ internal view of data in .sch
 <img width="1016" height="805" alt="image" src="https://github.com/user-attachments/assets/b72af391-f42f-4d74-a7f1-2011ca0a66a6" />
 
 These are the results that have been obtained by varying W/L ratio's: 
-<img width="1039" height="137" alt="image" src="https://github.com/user-attachments/assets/409c375d-8c7b-4ed2-93e0-40f9b907b7e7" />
+<img width="2537" height="732" alt="image" src="https://github.com/user-attachments/assets/e631c8d4-43ed-4d47-971a-6a801e8a3623" />
+
 
 
 
