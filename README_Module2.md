@@ -1,4 +1,4 @@
-# <h1 id="header-2">📖Labs-to-Simulation: 7nm FinFET Inverter Performance Analysis</h2>
+# <h1 id="header-2">Inverter Performance Analysis</h2>
 
 nfet_charcteristic 
 - spice
